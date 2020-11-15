@@ -1,0 +1,16 @@
+{
+  "name": "akko",
+  "version": "0.1.0",
+  "dependencies": [
+    {
+      "name": "colors",
+      "author": "ppmpkgs"
+    }
+  ],
+  "buildOptions": {
+    "syntaxOptions": {
+      "longStrings": true
+    },
+    "mode": "objfpc"
+  }
+}
