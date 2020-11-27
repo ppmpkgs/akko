@@ -7,7 +7,7 @@ interface
 
   uses
     SysUtils,
-    Colors;
+    ConsoleColors;
 
   const
     DISCONNECTED_INDENTATION_STR: String = ' |   ';

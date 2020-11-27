@@ -19,7 +19,7 @@ begin
   test.Assert('this is a successful test', 5 = 5);
   test.Assert('this is a failed test', 5 = 6);
   test.Assert('calling a working function', @WorkingFunc);
-  test.Assert('calling broken function', @BrokenFunc)
+  test.Assert('calling a broken function', @BrokenFunc)
 end;
 
 procedure NestedTest(test: AkkoUnitTest);
