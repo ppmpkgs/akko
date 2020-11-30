@@ -178,7 +178,7 @@ implementation
           ']' + '  ' + assertionResults[i].title + COLOR_RESET.S);
 
     if Assigned(thrownException) then
-      WriteLn(DISCONNECTED_INDENTATION_STR + indent + COLOR_RED.S + EXCEPTION_PREFIX + thrownException.Message + COLOR_RESET.S);
+      WriteLn(indent + COLOR_RED.S + EXCEPTION_PREFIX + thrownException.Message + COLOR_RESET.S);
 
     if depth = 0 then WriteLn
   end;
